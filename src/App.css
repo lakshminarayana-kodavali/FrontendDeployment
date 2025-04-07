@@ -1,0 +1,28 @@
+.app {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  background: #f0f4f8;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  text-align: left;
+}
