@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>📦 Product List</h1>
+      <h1>📦 KLU Product List</h1>
       <div className="product-list">
         {products.map(product => (
           <div className="product-card" key={product.id}>
@@ -27,6 +27,7 @@ function App() {
           </div>
         ))}
       </div>
+      <h1>This klu products list extracted from Railway.com Hosting Cloud DB.</h1>
     </div>
   );
 }
